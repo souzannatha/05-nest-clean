@@ -1,6 +1,5 @@
 import { PipeTransform, BadRequestException } from '@nestjs/common'
 import { ZodError, ZodType } from 'zod'
-import { z } from 'zod'
 import { fromZodError } from 'zod-validation-error'
 
 export class ZodValidationPipe implements PipeTransform {
